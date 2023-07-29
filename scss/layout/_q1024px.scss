@@ -1,0 +1,31 @@
+@media (max-width: 1024px){
+    .main{
+        width: 100%;
+        .main_portada{
+            h1{
+                font-size: 5rem;
+            }
+        }
+        /* titulo creating digital experiences */
+        .intro_seccion_monitor h2{
+            font-size: 2.8125rem;
+        }
+        /* parrafo de seccion monitor */
+        .seccion_monitor_parrafos p{
+            font-size: .75rem;
+            text-align: center;
+        }
+        /* img de seccion monitor */
+        .seccion_monitor img{
+            width: 22.5rem;
+        }
+        /* seccion correo del index */
+        .secc_correo h3{
+        font-size: 4rem;
+        }
+        /* correo electronico */
+        .secc_correo p{
+        font-size: 3rem;
+        }
+    }
+}

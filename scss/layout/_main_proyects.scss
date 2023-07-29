@@ -1,0 +1,48 @@
+.main_intro_s{
+    @include flex(wrap, column, center, center);
+    margin-top: 3.125rem;
+    h1{
+        font-family: $font_u;
+        color: $c_gris_claro;
+    }
+}
+.secc_1_proyects{
+    @include flex(wrap, row, space-evenly, center);
+    margin-top: 1.875rem;
+    h2{
+        width: 22.875rem;
+        font-size: 1rem;
+        color: $c_white;
+        font-family: $font_zkgn;
+    }
+    div{
+        @include flex(wrap, column, center, center);
+        gap: .4375rem;
+        p{
+            font-family: $font_zkgn;
+            color: $c_amarelo;
+        }
+    }
+}
+.link_gallery{
+    @include flex(wrap, row, space-evenly, center);
+    margin-top: 1.25rem;
+    a{
+        font-family: $font_i;
+        color: $c_gris_claro;
+        text-decoration: none;
+        font-size: 3.75rem;
+    }
+}
+.secc_gallery{
+    @include flex(wrap, row, space-evenly, center);
+    margin-top: 1.875rem;
+    img{
+        width: 25rem;
+    }
+    p{
+        color: $c_white;
+        font-family: $font_zkgn;
+        width: 18.75rem;
+    }
+}

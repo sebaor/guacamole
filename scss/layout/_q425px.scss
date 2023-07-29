@@ -1,0 +1,168 @@
+/* QUERIE CON FORMATO 425px */
+@media (max-width: 425px){
+    .main{
+        .main_portada {
+            margin-top: 2.5rem;
+            h1{
+                font-size: 2.2rem;
+            }
+            h2{
+                font-size: 1.4rem;
+                margin-top: 1.25rem;
+            }
+            p{
+                margin-top: 1.25rem;
+                font-size: 1.3rem;
+            }
+        }
+        .titulo_skills{
+            margin-top: 2rem;
+            h2{
+                font-size: 1.875rem;
+            }
+        }
+        .seccion_skils{
+            flex-direction: column;
+            h4{
+                font-size: .75rem;
+                width: 14.125rem;
+                margin-top: -1.5rem;
+                text-align: center;
+            }
+        }
+        .skills{
+            display: flex;
+            gap: .3125rem;
+            margin-top: .9375rem;
+            p{
+                font-size: .89rem;
+                padding: 0;
+            }
+        }
+        .intro_seccion_monitor {
+            h2{
+                font-size: 1.2rem;
+            }
+        }
+        .seccion_monitor{
+            margin-top: .9375rem;
+            img{
+                width: 18.75rem;
+            }
+        }
+        .seccion_monitor_parrafos{
+            flex-direction: column;
+            p{
+                font-size: .75rem;
+                width: 17rem;
+                text-align: center;
+            }
+        }
+        .secc_correo {
+            h3{
+                font-size: 1.5625rem;
+            }
+            p{
+                font-size: 1.25rem;
+            }
+        }
+        .main_intro {
+            h1{
+                text-align: center;
+                font-size: 2.3rem;
+            }
+        }
+        .main_about_me{
+            flex-direction: column;
+            margin-top: 1.875rem;
+            gap: 1.25rem;
+        }
+        .about_parrafo {
+            p{
+                font-size: .75rem;
+                width: 18.75rem;
+                text-align: center;
+            }
+        }
+        .main_about_me {
+            img{
+                width: 18.5rem;
+            }
+        }
+        .main_services {
+            margin-top: 2rem;
+            padding: 1.25rem;
+            h1{
+                font-size: 3rem;
+            }
+        }
+        .title_services_w {
+            margin-top: 3rem;
+            h2{
+                text-align: center;
+                font-size: 2.6rem;
+            }
+        }
+        .intro_services_w{
+            margin-top: 1rem;
+            h3{
+                font-size: 9rem;
+            }
+        }
+        .title_services_t {
+            margin-top: 3rem;
+            h2{
+                text-align: center;
+                font-size: 2.6rem;
+            }
+        }
+        .intro_services_t{
+            margin-top: 2rem;
+        }
+        .title_services_r {
+            margin-top: 3rem;
+            h2{
+                font-size: 2.6rem;
+            }
+        }
+        .intro_services_r{
+            margin-top: 1rem;
+        }
+        .main_intro_s {
+            h1{
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        .secc_1_proyects{
+            gap: 3.125rem;
+            h2{
+                text-align: center;
+            }
+            div{
+                p{
+                    text-align: center;
+                }
+            }
+        }
+        .secc_gallery{
+            gap: 3.125rem;
+            p{
+                text-align: center;
+                width: 14rem;
+            }
+        }
+        .secc_contact{
+            margin-top: 4.375rem;
+        }
+        .intro_contact {
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    }
+}

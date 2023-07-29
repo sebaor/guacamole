@@ -1,0 +1,40 @@
+/* Query para 320 px */
+@media (max-width: 320px){
+    .main{
+        .main_portada{
+            h2{
+                font-size: 1rem;
+            }
+        }
+        .main_intro {
+            h1{
+                font-size: 2rem;
+            }
+        }
+        .seccion_monitor_parrafos{
+            p{
+                width: 13rem;
+            }
+        }
+        .seccion_monitor{
+            img{
+                width: 12.5rem;
+            }
+        }
+        .about_parrafo {
+            p{
+                width: 13rem;
+            }
+        }
+        .main_about_me {
+            img{
+                display: none;
+            }
+        }
+        .secc_correo {
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}

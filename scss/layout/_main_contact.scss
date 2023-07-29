@@ -1,0 +1,31 @@
+.secc_contact{
+    @include flex(wrap, row, space-evenly, center);
+    margin-top: 6.25rem;
+}
+.intro_contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: .625rem;
+    h1{
+        color: $c_gris_claro;
+        font-family: $font_zkgn;
+        font-size: 1.875rem;
+    }
+    p{
+        font-size: .8125rem;
+        color: $c_gris_claro;
+        font-family: $font_zkgn;
+    }
+}
+.text_relleno{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: .625rem;
+    p{
+        font-size: 1.5rem;
+        color: $c_gris_oscuro;
+        font-family: $font_zkgn;
+    }
+}

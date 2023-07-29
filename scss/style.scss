@@ -1,0 +1,35 @@
+/*Mixins y Variables*/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+/*Reseteo y Fonts*/
+@import "./base/reset";
+@import "./base/typos";
+/*Animaciones*/
+@import "./components/animations";
+/*Extracciones de codigo*/
+@import "./components/extracciones_de_c";
+/*Header, navbar*/
+@import "./layout/header";
+/*Main index*/
+@import "./layout/main_index";
+/*Main about*/
+@import "./layout/main_about";
+/*Main services*/
+@import "./layout/main_services";
+/*Main proyects*/
+@import "./layout/main_proyects";
+/*Main contact*/
+@import "./layout/main_contact";
+/*Footer*/
+@import "./layout/footer";
+/*Querys*/
+@import "./layout/q1338px";
+@import "./layout/q1219px";
+@import "./layout/q1037px";
+@import "./layout/q1024px";
+@import "./layout/q915px";
+@import "./layout/q768px";
+@import "./layout/q624px";
+@import "./layout/q425px";
+@import "./layout/q375px";
+@import "./layout/q320px";

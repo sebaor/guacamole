@@ -1,0 +1,160 @@
+/* ----QUERIE DE 768px---- */
+@media (max-width: 768px){
+    .main{
+        .main_portada{
+            h1{
+                font-size: 3.625rem;
+            }
+            h2{
+                font-size: 2.1875rem;
+            }
+            p{
+                font-size: 1.875rem;
+            }
+        }
+        .titulo_skills{
+            h2{
+                font-size: 4.375rem;
+            }
+            h3{
+                display: none;
+            }
+            h4{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .intro_seccion_monitor {
+            h2{
+                font-size: 2.1875rem;
+            }
+        }
+        .seccion_monitor{
+            flex-direction: column;
+            gap: 3.125rem;
+        }
+        .secc_correo {
+            h3{
+                font-size: 2.8125rem;
+            }
+            p{
+                font-size: 2.1875rem;
+            }
+        }
+        .redes {
+            a{
+                font-size: .75rem;
+            }
+        }
+        .main_intro {
+            h1{
+                font-size: 1.375rem;
+            }
+        }
+        .about_parrafo {
+            p{
+                font-size: .8125rem;
+                text-align: center;
+            }
+        }
+        .main_about_me {
+            img{
+                width: 12.5rem;
+            }
+        }
+        .main_services{
+            flex-direction: column;
+            text-align: center;
+        }
+        .intro_services {
+            p{
+                font-size: .8125rem;
+                text-align: center;
+                width: 18rem;
+            }
+            h3{
+                font-size: 10.875rem;
+            }
+        }
+        .title_services {
+            h2{
+                font-size: 2.5rem;
+            }
+        }
+        .title_services_w {
+            h2{
+                font-size: 3.125rem;
+            }
+            h3{
+                font-size: 7.5rem;
+            }
+            p{
+                font-size: .8125rem;
+                text-align: center;
+            }
+        }
+        .title_services_t {
+            h2{
+                font-size: 2.8125rem;
+            }
+        }
+        .intro_services_t {
+            p{
+                font-size: .8125rem;
+                text-align: center;
+            }
+            h3{
+                font-size: 7.5rem;
+            }
+        }
+        .title_services_r {
+            h2{
+                font-size: 2.8125rem;
+            }
+        }
+        .intro_services_r {
+            h3{
+                font-size: 7.5rem;
+            }
+            p{
+                font-size: .8125rem;
+                text-align: center;
+            }
+        }
+        .main_intro_s {
+            h1{
+                font-size: 1.375rem;
+            }
+        }
+        .secc_1_proyects {
+            h2{
+                font-size: .75rem;
+                width: 13.875rem;
+            }
+            div{
+                p{
+                    font-size: .75rem;
+                }
+            }
+        }
+        .link_gallery {
+            a{
+                font-size: 2.8125rem;
+            }
+        }
+        .secc_gallery {
+            p{
+                font-size: .75rem;
+            }
+            img{
+                width: 15.875rem;
+            }
+        }
+        .secc_contact {
+            flex-direction: column;
+            gap: 1.875rem;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.main_services{
+    @include flex(wrap, row, center, center);
+    margin-top: 3.125rem;
+    h1{
+        font-family: $font_i;
+        color: $c_gris_claro;
+        font-size: 3.75rem;
+    }
+}
+.intro_services{
+    @include flex(wrap, row, space-evenly, center);
+    p{
+        width: 18.75rem;
+        font-family: $font_zkgn;
+        color: $c_gris_claro;
+    }
+    h3{
+        color: $c_gris_oscuro;
+        font-family: $font_i;
+        font-size: 14.25rem;
+    }
+}
+.title_services_w {
+    @extend .intro_services;
+    margin-top: 1.875rem;
+    h2{
+        font-family: $font_i;
+        color: $c_gris_claro;
+        font-size: 3.75rem;
+    }
+}
+.intro_services_w{
+    @extend .intro_services;
+    @include formato_services_h3;
+    @include formato_services_p;
+}
+.title_services_t{
+    @extend .intro_services;
+    @include formato_services_h2;
+}
+.intro_services_t{
+    @extend .intro_services;
+    @include formato_services_h3;
+    @include formato_services_p;
+}
+.title_services_r{
+    @extend .intro_services;
+    @include formato_services_h2;
+}
+.intro_services_r{
+    @extend .intro_services;
+    @include formato_services_h3;
+    @include formato_services_p;
+}
+

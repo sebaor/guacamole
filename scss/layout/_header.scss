@@ -1,0 +1,25 @@
+.header{
+    width: $w_secciones;
+}
+.nav_bar{
+    @include flex(wrap, row, space-evenly, center);
+    margin-top: .625rem;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: $c_gris_claro;
+            font-size: .875rem;
+            font-family: $font_zkgn;
+            &:hover{
+                color: $c_amarelo;
+            }
+        }
+    }
+}
+#seccion_contact{
+    color: $c_amarelo;
+    &:hover{
+        color: #595959;
+    }
+}

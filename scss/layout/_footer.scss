@@ -1,0 +1,30 @@
+.footer{
+    display: grid;
+    margin-top: 3.125rem;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.redes {
+    @include flex(wrap, row, center, center);
+    a{
+        padding: .9375rem;
+        color: $c_white;
+        font-size: 1rem;
+        text-decoration: none;
+        font-family: $font_u;
+        &:hover{
+            color: $c_amarelo;
+        }
+    }
+}
+.firma{
+    @include flex(wrap, row, center, center);
+    p{
+        color: #595959;
+        font-size: .625rem;
+        padding: .625rem;
+        font-family: $font_i;
+    }
+}

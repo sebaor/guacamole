@@ -1,0 +1,28 @@
+@mixin flex($f_wrap, $f_direction, $j_content, $a_items){
+    display: flex;
+    flex-wrap: $f_wrap;
+    flex-direction: $f_direction;
+    justify-content: $j_content;
+    align-items: $a_items;
+}
+@mixin formato_services_h3{
+    h3{
+        color: $c_gris_oscuro;
+        font-family: $font_i;
+        font-size: 14.25rem;
+    }
+}
+@mixin formato_services_p{
+    p{
+        width: 18.75rem;
+        font-family: $font_zkgn;
+        color: $c_gris_claro;
+    }
+}
+@mixin formato_services_h2{
+    h2{
+        font-family: $font_i;
+        color: $c_gris_claro;
+        font-size: 3.75rem;
+    }
+}

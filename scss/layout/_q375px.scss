@@ -1,0 +1,63 @@
+/* ----QUERIE DE 375px---- */
+@media (max-width: 375px){
+    .header{
+        nav{
+            .nav_bar{
+                flex-direction: column;
+            align-items: center;
+            gap: .3125rem;
+            }
+        }
+    }
+    .main{
+        .main_portada{
+            h1{
+                font-size: 3.1rem;
+            }
+        }
+        .seccion_skils{
+            div{
+                h3{
+                    display: none;
+                }
+            }
+        }
+        .skills{
+            flex-direction: column;
+            gap: .625rem;
+            margin-top: 2rem;
+            p{
+                text-align: center;
+            }
+        }
+        .intro_seccion_monitor {
+            h2{
+                font-size: 0.9rem;
+            }
+        }
+        .seccion_monitor_parrafos {
+            text-align: center;
+            p{
+                width: 300px;
+                font-size: 0.7rem;
+            }
+        }
+        .seccion_monitor {
+            img{
+                width: 14rem;
+            }
+        }
+        .secc_correo {
+            h3{
+                text-align: center;
+            }
+        }
+    }
+    .footer{
+        .redes{
+            a{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/* Estilo del formulario */
+.form_contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+}
+input[type="text"], input[type="button"] {
+    padding: .625rem;
+    margin-bottom: .625rem;
+    border: none;
+    border-radius: .25rem;
+    background-color: $c_white;
+    font-size: .75rem;
+    font-family: $font_zkgn;
+}
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 .3125rem $c_amarelo;
+}
+input[type="button"] {
+    background-color: $c_amarelo;
+    color: #000000;
+    cursor: pointer;
+    &:hover{
+        background-color: $c_amarelo;
+    }
+}
