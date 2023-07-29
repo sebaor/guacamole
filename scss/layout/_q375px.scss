@@ -1,14 +1,5 @@
 /* ----QUERIE DE 375px---- */
 @media (max-width: 375px){
-    .header{
-        nav{
-            .nav_bar{
-                flex-direction: column;
-            align-items: center;
-            gap: .3125rem;
-            }
-        }
-    }
     .main{
         .main_portada{
             h1{

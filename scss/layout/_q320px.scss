@@ -1,5 +1,14 @@
 /* Query para 320 px */
 @media (max-width: 320px){
+    .header{
+        nav{
+            .nav_bar{
+                a{
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
     .main{
         .main_portada{
             h2{

@@ -6,8 +6,7 @@
   margin: 0;
   padding: 0;
   background-color: black;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /*Fonts*/
 /*Animaciones*/
@@ -673,10 +672,6 @@ input[type="button"] {
 
 /* ----QUERIE DE 375px---- */
 @media (max-width: 375px) {
-  .header nav .nav_bar {
-    flex-direction: column;
-    align-items: center;
-    gap: .3125rem; }
   .main .main_portada h1 {
     font-size: 3.1rem; }
   .main .seccion_skils div h3 {
@@ -703,6 +698,8 @@ input[type="button"] {
 
 /* Query para 320 px */
 @media (max-width: 320px) {
+  .header nav .nav_bar a {
+    font-size: 0.7rem; }
   .main .main_portada h2 {
     font-size: 1rem; }
   .main .main_intro h1 {
